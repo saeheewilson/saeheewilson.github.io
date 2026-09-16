@@ -3,3 +3,15 @@ title: "About"
 ---
 
 About this site
+
+## PySpark Example
+
+```{python}
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("AboutPage").master("local[*]").getOrCreate()
+
+data = [("Sae Hee", "Data Analytics", 2026), ("Alex", "Cloud Computing", 2025)]
+df = spark.createDataFrame(data, ["name", "focus_area", "year"])
+df.show()
+```
