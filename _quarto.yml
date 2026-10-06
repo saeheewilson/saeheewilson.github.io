@@ -1,8 +1,11 @@
 project:
   type: website
+  resources:
+    - files/
 
 website:
   title: "Sae Hee Wilson"
+  site-url: https://saeheewilson.github.io
   navbar:
     left:
       - text: About
@@ -13,7 +16,15 @@ website:
         href: cv.qmd
       - text: Contact
         href: contact.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sae-hee-wilson-9645b9120/
+      - icon: github
+        href: https://github.com/saeheewilson
+  page-footer:
+    center: "© 2026 Sae Hee Wilson · Built with Quarto"
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, custom.scss]
+    toc: false
