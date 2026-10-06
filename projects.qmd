@@ -19,11 +19,6 @@ flowchart LR
   B --> F[Claude skill]
   C & D & E & F --> G[Log in shared registry]
   G --> H[Team reuses and maintains]
-    classDef default 
-fill:#ffffff,stroke:#101842,color:#101842
-    classDef hub 
-fill:#101842,stroke:#101842,color:#ffffff
-    class G hub
 ```
 
 ## Richmond Hill Real Estate Insights
