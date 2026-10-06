@@ -11,7 +11,35 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Projects placeholder."
+    "text": "Work project · Python, Excel macros and Power Query, Windows Task Scheduler, Claude skills\nI set up a shared registry where our AP team logs every automation we run: what it does, what triggers it, and who maintains it. It gives the team one place to see what already exists before building something new, and makes it easier to hand work off or troubleshoot when something breaks.\n55 automations logged · 47 built by me · 4 tool types\n\n\n\n\n\nflowchart LR\n  A[Repetitive task spotted] --&gt; B{Pick the right tool}\n  B --&gt; C[Python script]\n  B --&gt; D[Excel macro / Power Query]\n  B --&gt; E[Windows Scheduled Task]\n  B --&gt; F[Claude skill]\n  C & D & E & F --&gt; G[Log in shared registry]\n  G --&gt; H[Team reuses and maintains]"
+  },
+  {
+    "objectID": "projects.html#ap-automation-registry",
+    "href": "projects.html#ap-automation-registry",
+    "title": "Projects",
+    "section": "",
+    "text": "Work project · Python, Excel macros and Power Query, Windows Task Scheduler, Claude skills\nI set up a shared registry where our AP team logs every automation we run: what it does, what triggers it, and who maintains it. It gives the team one place to see what already exists before building something new, and makes it easier to hand work off or troubleshoot when something breaks.\n55 automations logged · 47 built by me · 4 tool types\n\n\n\n\n\nflowchart LR\n  A[Repetitive task spotted] --&gt; B{Pick the right tool}\n  B --&gt; C[Python script]\n  B --&gt; D[Excel macro / Power Query]\n  B --&gt; E[Windows Scheduled Task]\n  B --&gt; F[Claude skill]\n  C & D & E & F --&gt; G[Log in shared registry]\n  G --&gt; H[Team reuses and maintains]"
+  },
+  {
+    "objectID": "projects.html#richmond-hill-real-estate-insights",
+    "href": "projects.html#richmond-hill-real-estate-insights",
+    "title": "Projects",
+    "section": "Richmond Hill Real Estate Insights",
+    "text": "Richmond Hill Real Estate Insights\nAD571 · Boston University · R, Power BI, Excel Solver\nThe case: should a real estate brokerage open an office in Richmond Hill, Queens? I looked at 20+ years of NYC sales data to size up the market, compare it to nearby neighborhoods, forecast revenue, and model what an office would actually need to be profitable.\n\n\n\nAverage price per square foot over time\n\n\n\nMarket: price per square foot has climbed steadily, but sales volume has dropped since 2021.\nComparison: k-means clustering grouped Richmond Hill with lower-priced, higher-turnover areas. A t-test showed Forest Hills homes sell for about twice as much.\nForecast: a regression model explained about 70% of price variation and projected modest growth over eight quarters.\nOptimization: a two-stage solver model landed on 1 employee, 400 sq ft, and a 4.3% commission rate, with an NPV of about $1.4M over eight quarters.\n\nRecommendation: open a small pilot office. It’s profitable, but the market isn’t big enough to support scaling up headcount.\n\n\n\nSale price distribution: Richmond Hill vs Forest Hills"
+  },
+  {
+    "objectID": "projects.html#job-market-analysis-with-spark",
+    "href": "projects.html#job-market-analysis-with-spark",
+    "title": "Projects",
+    "section": "Job Market Analysis with Spark",
+    "text": "Job Market Analysis with Spark"
+  },
+  {
+    "objectID": "projects.html#job-market-analysis-with-spark-1",
+    "href": "projects.html#job-market-analysis-with-spark-1",
+    "title": "Projects",
+    "section": "Job Market Analysis with Spark",
+    "text": "Job Market Analysis with Spark\nAD688 · Boston University · PySpark, Spark SQL, AWS EC2, Quarto\nWorking with about 504,000 job postings, I reshaped one wide raw table into a relational model: a postings table linked to company, industry, and location tables by hashed keys. Then I used Spark SQL to answer four questions: which tech occupations pay the most, which companies post the most remote jobs in California, how California postings trend month to month, and how salaries compare across major metro areas.\n\n\n\nTop 5 companies with remote jobs in California\n\n\n\nSalaries: in the computing infrastructure industry, data scientists and software developers topped the list at a median of about $204K.\nRemote work: ServiceNow led California remote postings with 202, nearly double the next company.\nTrends: California postings climbed through spring 2026 and peaked in June at about 21,000 before falling off.\n\nA lot of the work was data quality. Blank strings had to be converted to real nulls before anything could be counted correctly, metro area codes were filled in on only a tiny share of rows (so most of the cities I compared had no usable data), and some postings were tagged with occupations like “Actors” and “Models” that clearly didn’t match the job. I documented those limits instead of forcing the numbers to look clean."
   },
   {
     "objectID": "cv.html",
@@ -25,6 +53,20 @@
     "href": "index.html",
     "title": "Sae Hee Wilson",
     "section": "",
-    "text": "About page placeholder."
+    "text": "I’m a senior accounts payable accountant at a cybersecurity company, working across invoice approvals, credit card reconciliations, payment runs, and accruals in Zip and NetSuite (with past work in Coupa and SAP). A lot of my job ends up being the troubleshooter when systems or processes don’t line up, and the translator between cross-functional teams. I also work on process improvement and automation, including building a shared registry where our AP team logs every automation we run. Of the 55 entries so far, I’ve built 47: a mix of Python scripts, Excel macros and Power Query, Windows Scheduled Tasks, and Claude skills.\nI’m finishing my master’s in Applied Business Analytics at Boston University. I don’t come from a technical background and picked most of it up on the job. The degree is how I’m putting those skills on paper and filling in the gaps along the way."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Sae Hee Wilson",
+    "section": "Education",
+    "text": "Education\nBoston University, Metropolitan College\nM.S. Applied Business Analytics, expected 2027\nUniversity of California, Irvine\nB.S. Cognitive Science, 2013"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Sae Hee Wilson",
+    "section": "Interests",
+    "text": "Interests\nProcess automation, ERP systems, AI tools for finance teams. Outside work, I run a BBQ catering business with my spouse."
   }
 ]
