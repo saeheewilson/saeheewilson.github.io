@@ -25,6 +25,20 @@
     "href": "index.html",
     "title": "Sae Hee Wilson",
     "section": "",
-    "text": "About page placeholder."
+    "text": "I’m a senior accounts payable accountant at a cybersecurity company, working across invoice approvals, credit card reconciliations, payment runs, and accruals in Zip and NetSuite (with past work in Coupa and SAP). A lot of my job ends up being the troubleshooter when systems or processes don’t line up, and the translator between cross-functional teams. I also work on process improvement and automation, including building a shared registry where our AP team logs every automation we run. Of the 55 entries so far, I’ve built 47: a mix of Python scripts, Excel macros and Power Query, Windows Scheduled Tasks, and Claude skills.\nI’m finishing my master’s in Applied Business Analytics at Boston University. I don’t come from a technical background and picked most of it up on the job. The degree is how I’m putting those skills on paper and filling in the gaps along the way."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Sae Hee Wilson",
+    "section": "Education",
+    "text": "Education\nBoston University, Metropolitan College\nM.S. Applied Business Analytics, expected 2027\nUniversity of California, Irvine\nB.S. Cognitive Science, 2013"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Sae Hee Wilson",
+    "section": "Interests",
+    "text": "Interests\nProcess automation, ERP systems, AI tools for finance teams. Outside work, I run a BBQ catering business with my spouse."
   }
 ]

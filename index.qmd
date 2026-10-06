@@ -1,5 +1,31 @@
 ---
 title: "Sae Hee Wilson"
+subtitle: "Accounts Payable · Finance Operations · Business Analytics"
+image: images/profile.jpeg
+about:
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sae-hee-wilson-9645b9120/
+    - icon: github
+      text: GitHub
+      href: https://github.com/saeheewilson
 ---
 
-About page placeholder.
+I'm a senior accounts payable accountant at a cybersecurity company, working across invoice approvals, credit card reconciliations, payment runs, and accruals in Zip and NetSuite (with past work in Coupa and SAP). A lot of my job ends up being the troubleshooter when systems or processes don't line up, and the translator between cross-functional teams. I also work on process improvement and automation, including building a shared registry where our AP team logs every automation we run. Of the 55 entries so far, I've built 47: a mix of Python scripts, Excel macros and Power Query, Windows Scheduled Tasks, and Claude skills.
+
+I'm finishing my master's in Applied Business Analytics at Boston University. I don't come from a technical background and picked most of it up on the job. The degree is how I'm putting those skills on paper and filling in the gaps along the way.
+
+## Education
+
+**Boston University, Metropolitan College**\
+M.S. Applied Business Analytics, expected 2027
+
+**University of California, Irvine**\
+B.S. Cognitive Science, 2013
+
+## Interests
+
+Process automation, ERP systems, AI tools for finance teams. Outside work, I run a BBQ catering business with my spouse.
