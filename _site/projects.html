@@ -73,6 +73,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -144,9 +147,77 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Projects placeholder.</p>
+<section id="ap-automation-registry" class="level2">
+<h2 class="anchored" data-anchor-id="ap-automation-registry">AP Automation Registry</h2>
+<p><em>Work project · Python, Excel macros and Power Query, Windows Task Scheduler, Claude skills</em></p>
+<p>I set up a shared registry where our AP team logs every automation we run: what it does, what triggers it, and who maintains it. It gives the team one place to see what already exists before building something new, and makes it easier to hand work off or troubleshoot when something breaks.</p>
+<p><strong>55</strong> automations logged · <strong>47</strong> built by me · <strong>4</strong> tool types</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Repetitive task spotted] --&gt; B{Pick the right tool}
+  B --&gt; C[Python script]
+  B --&gt; D[Excel macro / Power Query]
+  B --&gt; E[Windows Scheduled Task]
+  B --&gt; F[Claude skill]
+  C &amp; D &amp; E &amp; F --&gt; G[Log in shared registry]
+  G --&gt; H[Team reuses and maintains]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="richmond-hill-real-estate-insights" class="level2">
+<h2 class="anchored" data-anchor-id="richmond-hill-real-estate-insights">Richmond Hill Real Estate Insights</h2>
+<p><em>AD571 · Boston University · R, Power BI, Excel Solver</em></p>
+<p>The case: should a real estate brokerage open an office in Richmond Hill, Queens? I looked at 20+ years of NYC sales data to size up the market, compare it to nearby neighborhoods, forecast revenue, and model what an office would actually need to be profitable.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ad571-ppsf-trend.png" class="img-fluid figure-img"></p>
+<figcaption>Average price per square foot over time</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Market:</strong> price per square foot has climbed steadily, but sales volume has dropped since 2021.</li>
+<li><strong>Comparison:</strong> k-means clustering grouped Richmond Hill with lower-priced, higher-turnover areas. A t-test showed Forest Hills homes sell for about twice as much.</li>
+<li><strong>Forecast:</strong> a regression model explained about 70% of price variation and projected modest growth over eight quarters.</li>
+<li><strong>Optimization:</strong> a two-stage solver model landed on 1 employee, 400 sq ft, and a 4.3% commission rate, with an NPV of about $1.4M over eight quarters.</li>
+</ul>
+<p><strong>Recommendation:</strong> open a small pilot office. It’s profitable, but the market isn’t big enough to support scaling up headcount.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ad571-price-boxplot.png" class="img-fluid figure-img"></p>
+<figcaption>Sale price distribution: Richmond Hill vs Forest Hills</figcaption>
+</figure>
+</div>
+</section>
+<section id="job-market-analysis-with-spark" class="level2">
+<h2 class="anchored" data-anchor-id="job-market-analysis-with-spark">Job Market Analysis with Spark</h2>
+</section>
+<section id="job-market-analysis-with-spark-1" class="level2">
+<h2 class="anchored" data-anchor-id="job-market-analysis-with-spark-1">Job Market Analysis with Spark</h2>
+<p><em>AD688 · Boston University · PySpark, Spark SQL, AWS EC2, Quarto</em></p>
+<p>Working with about 504,000 job postings, I reshaped one wide raw table into a relational model: a postings table linked to company, industry, and location tables by hashed keys. Then I used Spark SQL to answer four questions: which tech occupations pay the most, which companies post the most remote jobs in California, how California postings trend month to month, and how salaries compare across major metro areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/m02-chart.png" class="img-fluid figure-img"></p>
+<figcaption>Top 5 companies with remote jobs in California</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Salaries:</strong> in the computing infrastructure industry, data scientists and software developers topped the list at a median of about $204K.</li>
+<li><strong>Remote work:</strong> ServiceNow led California remote postings with 202, nearly double the next company.</li>
+<li><strong>Trends:</strong> California postings climbed through spring 2026 and peaked in June at about 21,000 before falling off.</li>
+</ul>
+<p>A lot of the work was data quality. Blank strings had to be converted to real nulls before anything could be counted correctly, metro area codes were filled in on only a tiny share of rows (so most of the cities I compared had no usable data), and some postings were tagged with occupations like “Actors” and “Models” that clearly didn’t match the job. I documented those limits instead of forcing the numbers to look clean.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
