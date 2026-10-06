@@ -1,23 +1,23 @@
 /*-- scss:defaults --*/
-$navy: #101842;
-$red: #e01a33;
-$gold: #f0c371;
+$charcoal: #22282e;
+$gold: #e0b45c;
+$gold-dark: #a87a1f;
+$teal: #1f6f78;
 $gray: #6e6d6a;
-$offwhite: #efeeeb;
-$green: #6cd49a;
+$cream: #f7f5f0;
 
-$primary: $navy;
-$body-bg: $offwhite;
+$primary: $charcoal;
+$body-bg: $cream;
 $body-color: #22242a;
-$link-color: $navy;
-$link-hover-color: $red;
-$navbar-bg: $navy;
+$link-color: $teal;
+$link-hover-color: $gold-dark;
+$navbar-bg: $charcoal;
 $navbar-fg: #ffffff;
 $navbar-hl: $gold;
-$footer-bg: $offwhite;
+$footer-bg: $cream;
 $font-family-sans-serif: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
 $headings-font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
-$headings-color: $navy;
+$headings-color: $charcoal;
 
 /*-- scss:rules --*/
 h2 {
@@ -42,8 +42,8 @@ main img {
 }
 
 .btn-primary:hover {
-  background-color: $red;
-  border-color: $red;
+  background-color: $teal;
+  border-color: $teal;
 }
 
 .page-footer {
