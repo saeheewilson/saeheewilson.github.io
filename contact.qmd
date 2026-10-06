@@ -2,4 +2,12 @@
 title: "Contact"
 ---
 
-Contact placeholder.
+I'm always up for talking about AP automation, finance systems, or analytics work. Email is the best way to reach me.
+
+<i class="bi bi-envelope"></i> [saeheewilson@gmail.com](mailto:saeheewilson@gmail.com)
+
+<i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/sae-hee-wilson-9645b9120/)
+
+<i class="bi bi-github"></i> [GitHub](https://github.com/saeheewilson)
+
+<i class="bi bi-geo-alt"></i> Orange County, California
